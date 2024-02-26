@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg, #7d5fff, #8e78ef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 800px;
+}
+
+p{
+    line-height: 1.6;
+
+    .name {
+        color: #3030D1;
+        }
+
+    .birthday {
+        color: #D8DCFF;
+        }
+    
+    .year{
+        color: #f1a3ab;
+    }
+}
